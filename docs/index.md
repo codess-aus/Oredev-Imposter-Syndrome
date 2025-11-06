@@ -13,7 +13,9 @@
 	<figcaption class="visually-hidden">Animated workshop teaser illustrating imposter syndrome themes.</figcaption>
 </figure>
 
-Explore the journey through Imposter Syndrome and out the other side! Discover your strengths as a developer. Navigate each chapter to learn, reflect, and grow!
+Explore the journey through Imposter Syndrome and out the other side! In this workshop, we'll examine the five types of imposter syndrome that affect developers, share practical strategies to overcome self-doubt, and discover how tools like GitHub Copilot can support your growth. Whether you're a beginner questioning your place in tech or a senior developer still battling that inner critic, you'll find practical advice and community here.
+
+Remember: that voice in your head that says you're not good enough? It's lying to you.
 
 ---
 
