@@ -330,11 +330,12 @@ a:hover {
     min-width: 250px;
 }
 
-/* GIF images - full width for better visibility of animations */
-.md-typeset img[src$=".gif"],
-.md-typeset img[src*=".gif"] {
+/* GIF images: by default treat like normal images/hero sizing.
+   If you need a full-width animated GIF, add class "gif-full" in markdown:
+   ![Alt text](assets/example.gif){ .gif-full }
+*/
+.md-typeset img.gif-full {
     max-width: 100% !important;
-    min-width: auto;
     width: 100%;
 }
 
