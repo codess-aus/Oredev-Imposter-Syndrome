@@ -1,0 +1,94 @@
+site_name: "PyCon Thailand Workshop"
+site_url: https://codess-aus.github.io/pycon-thailand/
+repo_url: https://github.com/codess-aus/pycon-thailand
+repo_name: codess-aus/pycon-thailand
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+    - toc.integrate
+    - toc.follow
+    - navigation.tabs
+    - navigation.path
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: pink
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: pink
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    logo: material/school
+nav:
+  - Home: index.md
+  - Imposter Syndrome: imposter-syndrome.md
+  - The Expert: the-expert.md
+  - The Perfectionist: the-perfectionist.md
+  - The Superperson: the-superperson.md
+  - The Natural Genius: the-natural-genius.md
+  - The Soloist: the-soloist.md
+  - Key Takeaways: key-takeaways.md
+  - Resources: resources.md
+  - Contact Page: contact.md
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: th
+          name: ไทย
+          build: true
+          nav_translations:
+            Home: หน้าแรก
+            Imposter Syndrome: ซินโดรมผู้แอบอ้าง
+            The Expert: ผู้เชี่ยวชาญ
+            The Perfectionist: นักสมบูรณ์นิยม
+            The Superperson: ซุปเปอร์เปอร์สัน
+            The Natural Genius: อัจฉริยะโดยธรรมชาติ
+            The Soloist: นักเดี่ยว
+            Key Takeaways: ประเด็นสำคัญ
+            Resources: แหล่งข้อมูล
+            Contact Page: ติดต่อเรา
+extra:
+  alternate:
+    - name: English
+      link: /pycon-thailand/
+      lang: en
+    - name: ไทย
+      link: /pycon-thailand/th/
+      lang: th
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/PyConThailand
+    - icon: fontawesome/brands/discord
+      link: https://pythondiscord.com/
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - stylesheets/language-switcher.js
