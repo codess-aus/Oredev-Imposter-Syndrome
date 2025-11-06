@@ -456,12 +456,12 @@ a:hover {
     position: relative;
     left: 50%;
     right: 50%;
-    transform: translateX(-50%);
+    margin-left: -50vw;
+    margin-right: -50vw;
 }
 
 .hero-gif:hover {
-    transform: scale(1.01);
-    transition: transform 0.25s ease;
+    transform: none;
 }
 
 .visually-hidden {
@@ -487,7 +487,8 @@ a:hover {
     position: relative;
     left: 50%;
     right: 50%;
-    transform: translateX(-50%);
+    margin-left: -50vw;
+    margin-right: -50vw;
 }
 
 .md-typeset img[src$=".gif"]:not(.hero-gif):hover {
