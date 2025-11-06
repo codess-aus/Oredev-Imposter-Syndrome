@@ -1,6 +1,6 @@
 # 😨 Imposter Syndrome
 
-![Imposter Syndrome](assets/Imposter1.png)
+![Imposter Syndrome Illustration](assets/Designer%20(26).png)
 
 Imposter Syndrome is the feeling that you don't belong or aren't good enough, even when you are! Many developers experience this at some point in their journey.  
 
