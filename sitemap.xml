@@ -1,311 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/"/>
+         <loc>https://codess-aus.github.io/pycon-thailand/</loc>
+         <lastmod>2025-11-06</lastmod>
     </url>
     <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/contact/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/contact/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/contact/"/>
+         <loc>https://codess-aus.github.io/pycon-thailand/contact/</loc>
+         <lastmod>2025-11-06</lastmod>
     </url>
     <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/imposter-syndrome/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/imposter-syndrome/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/imposter-syndrome/"/>
+         <loc>https://codess-aus.github.io/pycon-thailand/imposter-syndrome/</loc>
+         <lastmod>2025-11-06</lastmod>
     </url>
     <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/key-takeaways/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/key-takeaways/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/key-takeaways/"/>
+         <loc>https://codess-aus.github.io/pycon-thailand/key-takeaways/</loc>
+         <lastmod>2025-11-06</lastmod>
     </url>
     <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/resources/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/resources/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/resources/"/>
+         <loc>https://codess-aus.github.io/pycon-thailand/resources/</loc>
+         <lastmod>2025-11-06</lastmod>
     </url>
     <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/the-expert/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/the-expert/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/the-expert/"/>
+         <loc>https://codess-aus.github.io/pycon-thailand/the-expert/</loc>
+         <lastmod>2025-11-06</lastmod>
     </url>
     <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/the-natural-genius/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/the-natural-genius/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/the-natural-genius/"/>
+         <loc>https://codess-aus.github.io/pycon-thailand/the-natural-genius/</loc>
+         <lastmod>2025-11-06</lastmod>
     </url>
     <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/the-perfectionist/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/the-perfectionist/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/the-perfectionist/"/>
+         <loc>https://codess-aus.github.io/pycon-thailand/the-perfectionist/</loc>
+         <lastmod>2025-11-06</lastmod>
     </url>
     <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/the-soloist/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/the-soloist/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/the-soloist/"/>
+         <loc>https://codess-aus.github.io/pycon-thailand/the-soloist/</loc>
+         <lastmod>2025-11-06</lastmod>
     </url>
     <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/the-superperson/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/the-superperson/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/the-superperson/"/>
+         <loc>https://codess-aus.github.io/pycon-thailand/the-superperson/</loc>
+         <lastmod>2025-11-06</lastmod>
     </url>
     <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/assets/readme/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/assets/readme/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/assets/readme/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/th/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/th/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/contact/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/th/contact/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/th/contact/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/imposter-syndrome/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/th/imposter-syndrome/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/th/imposter-syndrome/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/key-takeaways/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/th/key-takeaways/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/th/key-takeaways/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/resources/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/th/resources/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/th/resources/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/the-expert/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/th/the-expert/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/th/the-expert/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/the-natural-genius/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/th/the-natural-genius/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/th/the-natural-genius/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/the-perfectionist/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/th/the-perfectionist/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/th/the-perfectionist/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/the-soloist/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/th/the-soloist/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/th/the-soloist/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/the-superperson/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/th/the-superperson/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/th/the-superperson/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/assets/readme/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/th/assets/readme/"/>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/th/assets/readme/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/contact/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/contact/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/contact/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/imposter-syndrome/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/imposter-syndrome/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/imposter-syndrome/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/key-takeaways/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/key-takeaways/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/key-takeaways/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/resources/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/resources/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/resources/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/the-expert/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/the-expert/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/the-expert/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/the-natural-genius/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/the-natural-genius/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/the-natural-genius/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/the-perfectionist/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/the-perfectionist/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/the-perfectionist/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/the-soloist/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/the-soloist/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/the-soloist/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/the-superperson/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/the-superperson/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/the-superperson/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/assets/readme/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/assets/readme/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/assets/readme/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/th/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/th/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/th/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/th/contact/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/th/contact/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/th/contact/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/th/imposter-syndrome/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/th/imposter-syndrome/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/th/imposter-syndrome/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/th/key-takeaways/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/th/key-takeaways/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/th/key-takeaways/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/th/resources/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/th/resources/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/th/resources/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/th/the-expert/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/th/the-expert/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/th/the-expert/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/th/the-natural-genius/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/th/the-natural-genius/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/th/the-natural-genius/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/th/the-perfectionist/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/th/the-perfectionist/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/th/the-perfectionist/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/th/the-soloist/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/th/the-soloist/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/th/the-soloist/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/th/the-superperson/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/th/the-superperson/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/th/the-superperson/"/>
-    </url>
-    <url>
-        <loc>https://codess-aus.github.io/pycon-thailand/th/th/assets/readme/</loc>
-        <lastmod>2025-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="th" href="https://codess-aus.github.io/pycon-thailand/th/th/assets/readme/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://codess-aus.github.io/pycon-thailand/th/assets/readme/"/>
+         <loc>https://codess-aus.github.io/pycon-thailand/assets/readme/</loc>
+         <lastmod>2025-11-06</lastmod>
     </url>
 </urlset>
