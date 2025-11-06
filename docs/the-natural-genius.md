@@ -4,7 +4,8 @@
 
 The Natural Genius expects to master new skills quickly. When learning takes time, they may feel discouraged. This type typically feels like a fraud because they don't believe that they are naturally intelligent or competent.  
 
-<video controls autoplay loop muted playsinline style="width: 100%; height: auto; display: block; margin: 2rem 0;">
+<video controls loop muted playsinline style="width: 100%; height: auto; display: block; margin: 2rem 0;">
+  <source src="../assets/5ways.mp4" type="video/mp4">
   <source src="assets/5ways.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
