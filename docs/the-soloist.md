@@ -11,7 +11,7 @@ The Soloist prefers to work alone and may hesitate to ask for help. Collaboratio
 ## 🤝 Collaborate and Connect
 
 - **Ask for help when needed** - It speeds up learning and builds relationships
-- **Join Python communities** - PyCon Thailand, Discord, local meetups
+- **Join developer communities** - Oredev, Discord, local meetups
 - **Share your journey with others** - Your struggles help others feel less alone
 - **Pair programming** - Two heads are better than one
 - **Contribute to open source** - Learn from others and give back

@@ -14,9 +14,9 @@ We'd love to hear from you! For questions, feedback, or collaboration opportunit
 
 ### 🤝 Join the Community
 
-Connect with fellow Pythonistas:
-- Attend [PyCon Thailand](https://th.pycon.org/)
-- Join local Python meetups
+Connect with fellow developers:
+- Attend [Oredev](https://oredev.org/)
+- Join local developer meetups
 - Participate in online discussions
 - Share your story and help others
 
@@ -24,7 +24,7 @@ Connect with fellow Pythonistas:
 
 ## 🙏 Thank You!
 
-Thank you for joining the **Overcome Your Imposter Syndrome with GitHub Copilot** workshop at PyCon Thailand!
+Thank you for joining the **Overcome Your Imposter Syndrome with GitHub Copilot** workshop at the Oredev Developers Conference!
 
 Remember: You are capable, you are learning, and you belong in this community.
 

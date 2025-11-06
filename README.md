@@ -1,8 +1,8 @@
-# PyCon Thailand Workshop Website
+# Oredev Developers Conference Workshop Website
 
-Go directly to the website for this content here: https://codess-aus.github.io/pycon-thailand/
+Go directly to the website for this content here: https://codess-aus.github.io/Oredev-Imposter-Syndrome/
 
-This repository contains the source code and content for the PyCon Thailand workshop website, built with MkDocs Material.
+This repository contains the source code and content for the Oredev Developers Conference workshop website, built with MkDocs Material.
 
 ## Features
 - Accessibility-first design (WCAG compliant)

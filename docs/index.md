@@ -1,9 +1,9 @@
-# 👋 Welcome to my PyCon Thailand Workshop  
+# 👋 Welcome to my Oredev Developers Conference Workshop  
 **By Michelle Sandford From Microsoft Asia**  
 
-![PyCon Thailand](assets/PyconThailand.png)
+![Oredev Developers Conference](assets/PyconThailand.png)
 
-Explore the journey through Imposter Syndrome and out the other side! Discover your strengths as a Pythonista. Navigate each chapter to learn, reflect, and grow!
+Explore the journey through Imposter Syndrome and out the other side! Discover your strengths as a developer. Navigate each chapter to learn, reflect, and grow!
 
 ---
 

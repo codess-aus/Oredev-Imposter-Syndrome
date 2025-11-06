@@ -1,4 +1,4 @@
-# PyCon Thailand Workshop Site
+# Oredev Developers Conference Workshop Site
 
 ## Build & Deployment Guide
 
