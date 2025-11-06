@@ -428,28 +428,30 @@ a:hover {
     }
 }
 
-/* Hero GIF figure styling */
+/* Hero GIF figure styling - now full width */
 .hero-figure {
-    max-width: 500px;
-    margin: 0 0 1.5rem 0;
-    padding: 0.5rem;
-    border-radius: 16px;
-    background: rgba(139, 92, 246, 0.15);
-    border: 2px solid rgba(109, 40, 217, 0.35);
-    box-shadow: 0 4px 18px rgba(109, 40, 217, 0.25);
+    width: 100%;
+    max-width: 100%;
+    margin: 1.5rem 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
 }
 
 [data-md-color-scheme="slate"] .hero-figure {
-    background: rgba(192, 132, 252, 0.18);
-    border-color: rgba(192, 132, 252, 0.45);
-    box-shadow: 0 4px 18px rgba(192, 132, 252, 0.25);
+    background: none;
+    border: none;
+    box-shadow: none;
 }
 
 .hero-gif {
     display: block;
     width: 100%;
+    max-width: 100%;
     height: auto;
-    border-radius: 12px;
+    border-radius: 0;
     image-rendering: auto;
 }
 
@@ -466,28 +468,20 @@ a:hover {
     white-space: nowrap;
 }
 
-/* Global GIF styling: apply similar visual treatment as hero figure for any GIF
-   that is NOT already inside a .hero-figure (standalone markdown image). */
+/* Global GIF styling: make all non-hero GIFs full width of content area */
 .md-typeset img[src$=".gif"]:not(.hero-gif) {
     display: block;
-    margin: 1.5rem auto;
-    max-width: min(40%, 500px);
-    min-width: 250px;
+    width: 100%;
+    max-width: 100%;
     height: auto;
-    padding: 0.5rem;
-    background: rgba(139, 92, 246, 0.15);
-    border: 2px solid rgba(109, 40, 217, 0.35);
-    border-radius: 16px;
-    box-shadow: 0 4px 18px rgba(109, 40, 217, 0.25);
-}
-
-[data-md-color-scheme="slate"] .md-typeset img[src$=".gif"]:not(.hero-gif) {
-    background: rgba(192, 132, 252, 0.18);
-    border-color: rgba(192, 132, 252, 0.45);
-    box-shadow: 0 4px 18px rgba(192, 132, 252, 0.25);
+    margin: 2rem 0;
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
 }
 
 .md-typeset img[src$=".gif"]:not(.hero-gif):hover {
-    transform: scale(1.01);
-    transition: transform 0.25s ease;
+    transform: none;
 }
