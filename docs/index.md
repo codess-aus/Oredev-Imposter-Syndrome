@@ -1,7 +1,17 @@
 # 👋 Welcome to my Oredev Developers Conference Workshop  
 **By Michelle Sandford From Microsoft Asia**  
 
-![Oredev Developers Conference](assets/PyconThailand.png)
+<figure class="hero-figure">
+	<img
+		src="assets/oredev-imposter.gif"
+		class="hero-gif"
+		alt="Animated montage: Overcoming Your Imposter Syndrome with GitHub Copilot and a person holding their head in thought"
+		loading="lazy"
+		decoding="async"
+		width="500"
+	/>
+	<figcaption class="visually-hidden">Animated workshop teaser illustrating imposter syndrome themes.</figcaption>
+</figure>
 
 Explore the journey through Imposter Syndrome and out the other side! Discover your strengths as a developer. Navigate each chapter to learn, reflect, and grow!
 

@@ -427,3 +427,41 @@ a:hover {
         --md-accent-fg-color: Highlight;
     }
 }
+
+/* Hero GIF figure styling */
+.hero-figure {
+    max-width: 500px;
+    margin: 0 0 1.5rem 0;
+    padding: 0.5rem;
+    border-radius: 16px;
+    background: rgba(139, 92, 246, 0.15);
+    border: 2px solid rgba(109, 40, 217, 0.35);
+    box-shadow: 0 4px 18px rgba(109, 40, 217, 0.25);
+}
+
+[data-md-color-scheme="slate"] .hero-figure {
+    background: rgba(192, 132, 252, 0.18);
+    border-color: rgba(192, 132, 252, 0.45);
+    box-shadow: 0 4px 18px rgba(192, 132, 252, 0.25);
+}
+
+.hero-gif {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    image-rendering: auto;
+}
+
+.hero-gif:hover {
+    transform: scale(1.01);
+    transition: transform 0.25s ease;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    height: 1px; width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap;
+}
