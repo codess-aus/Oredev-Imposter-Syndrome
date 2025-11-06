@@ -1,0 +1,572 @@
+/* Import modern fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+    --md-text-font-size: 1.125rem;
+    --md-typeset-line-height: 1.7;
+    --md-text-color: #1a1a2e;
+    --md-accent-fg-color: #7c3aed; /* Darker purple for better contrast */
+    --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --gradient-accent: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    --gradient-blue-purple: linear-gradient(135deg, #4facfe 0%, #00f2fe 50%, #c084fc 100%);
+}
+
+/* Modern typography */
+body {
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+[data-md-color-scheme="slate"] {
+    --md-text-color: #e8e8f0;
+    --md-accent-fg-color: #c084fc;
+    --md-primary-bg-color: #0f0f23;
+}
+
+/* Gradient backgrounds */
+.md-header {
+    background: linear-gradient(135deg, #1e3a8a 0%, #4c1d95 50%, #831843 100%) !important;
+}
+
+/* Improve header text accessibility with high contrast */
+.md-header__title,
+.md-header__button,
+.md-header-nav__button,
+.md-header-nav__topic,
+.md-header__topic {
+    color: #ffffff !important;
+}
+
+/* Repository name in header */
+.md-source__repository,
+.md-source__facts,
+.md-source {
+    color: #ffffff !important;
+}
+
+.md-source:hover {
+    opacity: 0.9;
+}
+
+.md-source__icon {
+    color: #ffffff !important;
+}
+
+.md-tabs__link,
+.md-tabs__link--active {
+    color: #ffffff !important;
+    opacity: 0.9;
+}
+
+.md-tabs__link:hover {
+    color: #ffffff !important;
+    opacity: 1;
+}
+
+.md-tabs__link--active {
+    opacity: 1;
+    font-weight: 600;
+}
+
+/* Navigation items in header */
+.md-nav__item .md-nav__link {
+    color: #ffffff !important;
+}
+
+.md-nav__item .md-nav__link:hover {
+    color: #f3e8ff !important;
+}
+
+/* Search box in header */
+.md-search__input {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    color: #ffffff !important;
+}
+
+.md-search__input::placeholder {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.md-search__icon {
+    color: #ffffff !important;
+}
+
+/* All icons in header should be white */
+.md-header .md-icon,
+.md-header svg {
+    color: #ffffff !important;
+    fill: currentColor;
+}
+
+/* Sidebar navigation styling for better visibility */
+.md-nav--primary .md-nav__title {
+    background-color: #8b5cf6 !important;
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+.md-nav--primary .md-nav__item {
+    border-left: 2px solid transparent;
+}
+
+.md-nav--primary .md-nav__link {
+    color: #1a1a2e !important;
+    font-weight: 500;
+    padding: 0.6rem 1rem;
+    transition: all 0.2s ease;
+}
+
+.md-nav--primary .md-nav__link:hover {
+    background-color: rgba(109, 40, 217, 0.1) !important;
+    color: #5b21b6 !important; /* Darker purple for better contrast */
+    border-left-color: #5b21b6;
+}
+
+.md-nav--primary .md-nav__link--active {
+    background-color: rgba(109, 40, 217, 0.15) !important;
+    color: #5b21b6 !important; /* Darker purple for better contrast */
+    font-weight: 600;
+    border-left: 3px solid #5b21b6 !important;
+}
+
+/* Dark mode sidebar */
+[data-md-color-scheme="slate"] .md-nav--primary .md-nav__link {
+    color: #e8e8f0 !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav--primary .md-nav__link:hover {
+    background-color: rgba(192, 132, 252, 0.15) !important;
+    color: #c084fc !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav--primary .md-nav__link--active {
+    background-color: rgba(192, 132, 252, 0.2) !important;
+    color: #c084fc !important;
+    border-left: 3px solid #c084fc !important;
+}
+
+/* Secondary navigation (nested items) */
+.md-nav--secondary .md-nav__link {
+    color: #374151 !important; /* Darker gray for better contrast (9.74:1) */
+}
+
+.md-nav--secondary .md-nav__link:hover {
+    color: #5b21b6 !important; /* Darker purple */
+}
+
+[data-md-color-scheme="slate"] .md-nav--secondary .md-nav__link {
+    color: #d1d5db !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav--secondary .md-nav__link:hover {
+    color: #c084fc !important;
+}
+
+.md-typeset h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    background: linear-gradient(135deg, #667eea 0%, #c084fc 50%, #f472b6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1.5rem;
+}
+
+.md-typeset h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: -0.01em;
+    color: #6d28d9; /* Darker purple for WCAG AA compliance (4.52:1 contrast) */
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.md-typeset h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: -0.01em;
+    color: #6d28d9; /* Darker purple for WCAG AA compliance */
+}
+
+[data-md-color-scheme="slate"] .md-typeset h2,
+[data-md-color-scheme="slate"] .md-typeset h3 {
+    color: #c084fc;
+}
+
+/* Modern paragraph styling */
+.md-typeset p {
+    font-size: 1.125rem;
+    line-height: 1.7;
+    margin-bottom: 1.25rem;
+    color: #1a1a2e; /* Full opacity for maximum contrast */
+}
+
+[data-md-color-scheme="slate"] .md-typeset p {
+    color: #e8e8f0; /* Full opacity for dark mode */
+}
+
+/* Modern list styling */
+.md-typeset ul li, .md-typeset ol li {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 0.75rem;
+}
+
+.md-typeset strong {
+    font-weight: 600;
+    color: #1a1a2e;
+}
+
+[data-md-color-scheme="slate"] .md-typeset strong {
+    color: #e8e8f0;
+}
+
+.md-typeset code {
+    background: rgba(109, 40, 217, 0.1); /* Lighter background */
+    border: 1px solid rgba(109, 40, 217, 0.3);
+    border-radius: 6px;
+    padding: 3px 8px;
+    color: #5b21b6; /* Darker purple for better contrast (7.15:1) */
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+[data-md-color-scheme="slate"] .md-typeset code {
+    background: rgba(192, 132, 252, 0.2); /* Slightly darker background */
+    border-color: rgba(192, 132, 252, 0.4);
+    color: #e9d5ff; /* Lighter purple for dark mode (11.6:1 contrast) */
+}
+
+:focus-visible {
+    outline: 3px solid #6d28d9; /* Darker, more visible focus outline */
+    outline-offset: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: #6d28d9; /* Darker purple for WCAG AA (4.52:1) */
+    font-weight: 500;
+    transition: all 0.2s ease;
+    border-bottom: 2px solid transparent;
+}
+
+a:hover {
+    color: #be185d; /* Darker pink for better contrast (5.38:1) */
+    border-bottom: 2px solid #be185d;
+}
+
+[data-md-color-scheme="slate"] a {
+    color: #c084fc;
+}
+
+[data-md-color-scheme="slate"] a:hover {
+    color: #f472b6;
+    border-bottom: 2px solid #f472b6;
+}
+
+/* Navigation links */
+.md-nav__link {
+    font-weight: 500;
+    letter-spacing: -0.01em;
+}
+
+.md-nav__link--active {
+    font-weight: 600;
+}
+
+/* Image styling - Responsive and accessible */
+.md-typeset img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    display: block;
+    margin: 1.5rem auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(139, 92, 246, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Video styling - Match image styling */
+.md-typeset video {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    display: block;
+    margin: 1.5rem auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(139, 92, 246, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hero images (first image after h1) - smaller, more contained */
+.md-typeset h1 + p img {
+    max-width: min(40%, 500px);
+    min-width: 250px;
+}
+
+/* Hero videos (first video after h1) - same size as hero images */
+.md-typeset h1 + p video {
+    max-width: min(40%, 500px);
+    min-width: 250px;
+}
+
+/* Standard content images - same size as hero images for consistency */
+.md-typeset p img,
+.md-typeset h2 + p img,
+.md-typeset h3 + p img {
+    max-width: min(40%, 500px);
+    min-width: 250px;
+}
+
+/* Standard content videos - match image sizing */
+.md-typeset p video,
+.md-typeset h2 + p video,
+.md-typeset h3 + p video {
+    max-width: min(40%, 500px);
+    min-width: 250px;
+}
+
+/* GIF images - full width for better visibility of animations */
+.md-typeset img[src$=".gif"],
+.md-typeset img[src*=".gif"] {
+    max-width: 100% !important;
+    min-width: auto;
+    width: 100%;
+}
+
+/* Small images - for images that need to be constrained to specific size */
+.md-typeset .small-image {
+    text-align: center;
+    margin: 1.5rem auto;
+}
+
+.md-typeset .small-image img {
+    max-width: 400px !important;
+    width: 100%;
+    height: auto;
+}
+
+.md-typeset img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 30px rgba(139, 92, 246, 0.3);
+}
+
+.md-typeset video:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 30px rgba(139, 92, 246, 0.3);
+}
+
+/* Ensure images don't break layout on small screens */
+@media (max-width: 768px) {
+    .md-typeset img,
+    .md-typeset p img,
+    .md-typeset h1 + p img {
+        max-width: 100% !important;
+        min-width: 100px;
+    }
+    
+    .md-typeset video,
+    .md-typeset p video,
+    .md-typeset h1 + p video {
+        max-width: 100% !important;
+        min-width: 100px;
+    }
+}
+
+/* Content area gradient accent */
+.md-content {
+    background: linear-gradient(180deg, rgba(139, 92, 246, 0.02) 0%, transparent 100%);
+}
+
+[data-md-color-scheme="slate"] .md-content {
+    background: linear-gradient(180deg, rgba(192, 132, 252, 0.05) 0%, transparent 100%);
+}
+
+/* Blockquote styling */
+.md-typeset blockquote {
+    border-left: 4px solid #7c3aed; /* Darker border */
+    background: rgba(109, 40, 217, 0.08); /* Lighter background for better text contrast */
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #1a1a2e; /* Explicit dark text color for contrast */
+}
+
+[data-md-color-scheme="slate"] .md-typeset blockquote {
+    background: rgba(192, 132, 252, 0.15);
+    color: #e8e8f0; /* Light text for dark mode */
+}
+
+@media (max-width: 600px) {
+    .md-typeset h1 {
+        font-size: 2.25rem;
+    }
+    .md-typeset h2 {
+        font-size: 1.75rem;
+    }
+    .md-typeset h3 {
+        font-size: 1.35rem;
+    }
+    .md-typeset p,
+    .md-typeset ul li,
+    .md-typeset ol li {
+        font-size: 1rem;
+    }
+}
+
+@media (forced-colors: active) {
+    :root {
+        --md-text-color: WindowText;
+        --md-accent-fg-color: Highlight;
+    }
+}
+
+/* Language Switcher Styles */
+.language-switcher {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    padding: 8px 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+}
+
+[data-md-color-scheme="slate"] .language-switcher {
+    background: rgba(15, 15, 35, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.language-switcher:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+}
+
+.language-switcher select {
+    background: transparent;
+    border: none;
+    color: var(--md-text-color);
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    padding: 4px 8px;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.language-switcher select:hover {
+    background: rgba(139, 92, 246, 0.1);
+}
+
+.language-switcher select option {
+    background: var(--md-primary-bg-color, white);
+    color: var(--md-text-color);
+}
+
+/* Language Toggle Buttons */
+.language-toggle {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.language-toggle button {
+    background: #ffffff; /* Solid white background for better contrast */
+    border: 2px solid #6d28d9; /* Darker, more visible border */
+    color: #1a1a2e; /* Dark text for contrast */
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600; /* Bolder for better readability */
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.language-toggle button:hover {
+    background: #f3e8ff; /* Light purple background on hover */
+    border-color: #5b21b6;
+    transform: translateY(-1px);
+    color: #1a1a2e;
+}
+
+.language-toggle button.active {
+    background: #6d28d9; /* Solid purple for active state */
+    color: #ffffff; /* White text for maximum contrast (8.59:1) */
+    border-color: #6d28d9;
+}
+
+.language-toggle button.active:hover {
+    background: #5b21b6; /* Darker on hover */
+    border-color: #5b21b6;
+}
+
+/* Dark mode language toggle */
+[data-md-color-scheme="slate"] .language-toggle button {
+    background: #1e293b; /* Dark background */
+    border-color: #a78bfa; /* Lighter purple border for visibility */
+    color: #e8e8f0; /* Light text */
+}
+
+[data-md-color-scheme="slate"] .language-toggle button:hover {
+    background: #334155;
+    border-color: #c084fc;
+    color: #ffffff;
+}
+
+[data-md-color-scheme="slate"] .language-toggle button.active {
+    background: #7c3aed;
+    color: #ffffff;
+    border-color: #7c3aed;
+}
+
+[data-md-color-scheme="slate"] .language-toggle button.active:hover {
+    background: #6d28d9;
+    border-color: #6d28d9;
+}
+
+/* Flag icons for language buttons */
+.language-toggle button[data-lang="en"]::before {
+    content: "🇺🇸";
+    margin-right: 4px;
+}
+
+.language-toggle button[data-lang="th"]::before {
+    content: "🇹🇭";
+    margin-right: 4px;
+}
+
+/* Mobile responsive */
+@media screen and (max-width: 768px) {
+    .language-switcher {
+        top: 60px;
+        right: 10px;
+        padding: 6px 12px;
+    }
+    
+    .language-toggle button {
+        padding: 4px 8px;
+        font-size: 11px;
+    }
+}
+
+/* Animation for language switch */
+.language-switching {
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
